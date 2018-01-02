@@ -20,7 +20,7 @@ class InitSocketTest(object):
     def creatsocket(self):
         if self.type.upper() == "TCP":
             self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        elif self.type.upper == "UDP":
+        elif self.type.upper() == "UDP":
             self.s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         else:
             print("you must input the InitSocket(type) is 'UDP|TCP' ")
