@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="margin-top: auto">
+    <div id="loginssh" align="center">
+        <form id="form" name="form" class="pure-form pure-form-stacked">
+            <div class="pure-item" style="float:left">
+                <label for="host">Host</label>
+                <input id="host" name="host" type="text" placeholder="Host"><br />
+            </div>
+            <div class="pure-item" style="float: left">
+                <label for="port">Port</label>
+                <input id="port" name="port" type="text" placeholder="Port">
+            </div>
+            <div class="pure-item" style="float: left">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" placeholder="Username">
+            </div>
+            <div class="pure-item" style="float: left">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" placeholder="Password">
+            </div>
+
+            <button type="button" class="pure-button pure-button-primary" onclick="connect()">Connect</button>
+        </form>
+    </div>
+    <div id="term" align="center"></div>
+</div>
+
+    <script src="../static/js/webssh/term.js"></script>
+    <script src="../static/js/webssh/formvalid.js"></script>
+    <script src="../static/js/webssh/ws.js"></script>
+    <script src="../static/js/webssh/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+ 2018/01/01 00:41:46 demonlogging.py[line:17] INFO excute function hello
+ 2018/01/01 00:41:46 demonlogging.py[line:18] DEBUG debug
+ 2018/01/01 00:41:46 demonlogging.py[line:19] INFO info
+ 2018/01/01 00:41:46 demonlogging.py[line:20] WARNING warning
+ 2018/01/01 00:41:46 demonlogging.py[line:21] ERROR error
