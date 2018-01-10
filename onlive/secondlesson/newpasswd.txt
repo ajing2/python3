@@ -1,0 +1,54 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
+systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:997:995:User for polkitd:/:/sbin/nologin
+tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+admin:x:1000:1000::/home/admin:/bin/bash
+xiaobu:x:1001:1001::/home/xiaobu:/bin/bash
+tcpdump:x:72:72::/:/sbin/nologin
+tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat:/sbin/nologin
+git:x:1002:1002::/home/git:/bin/bash
+hyxc:x:1003:1003::/home/hyxc:/sbin/nologin
+saltapi:x:1004:1004::/home/saltapi:/sbin/nologin
+geoclue:x:996:993:User for geoclue:/var/lib/geoclue:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+libstoragemgmt:x:995:992:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+saslauth:x:994:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+colord:x:993:989:User for colord:/var/lib/colord:/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+setroubleshoot:x:992:988::/var/lib/setroubleshoot:/sbin/nologin
+chrony:x:991:987::/var/lib/chrony:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+radvd:x:75:75:radvd user:/:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+sssd:x:990:986:User for sssd:/:/sbin/nologin
+unbound:x:989:985:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+gnome-initial-setup:x:988:983::/run/gnome-initial-setup/:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+hadoop:x:1005:1005::/home/hadoop:/bin/bash
+memcached:x:987:982:Memcached daemon:/run/memcached:/sbin/nologin
+hsqldb:x:96:96::/var/lib/hsqldb:/sbin/nologin
