@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/12/25 21:09
 # @Author  : lingxiangxiang
-# @File    : demon2.py
+# @File    : demon8.py
 '''九宫格'''
 
 class NinePaper(object):
